@@ -173,7 +173,7 @@ const users = [
 const getUserNames = users => users.map((item) => item.name);
 console.log(getUserNames(users));
 
-const getUsersWithEyeColor = (users, color) => users.filter((item) => item.eyeColor === color).map((user) => user.name);
+const getUsersWithEyeColor = (users, color) => users.filter((item) => item.eyeColor === color)
 console.log(getUsersWithEyeColor(users, 'blue')); 
 
 const getUsersWithGender = (users, gender) => users.filter((item) => item.gender === gender).map((item) => item.name);
